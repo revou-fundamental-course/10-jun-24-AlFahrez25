@@ -1,6 +1,6 @@
 
 body{
-    background-color: #9bcdd2;;
+    background-color: #9bcdd2;
 }
 .Convert {
     text-align: center;
@@ -25,14 +25,7 @@ font-size: 20px;
 .Fahtwo{
     text-align: center;
 }
-textarea{
-    text-align:left;
-    resize: none;
-    width: 250px;
-    height: 25px;
-    border-radius: 7px;
-    
-}
+
 .Sbesar {
     font-size: 30px;
     font-family: italic;
@@ -47,15 +40,15 @@ button{
    transition-duration: 0.4s;
    cursor:pointer;
 }
-.but1:hover{
+#konversi:hover{
     background-color: green;
     color: white;
 }
-.but2:hover{
+#reset:hover{
     background-color: red;
     color: white;
 }
-.but3:hover{
+#reverse:hover{
     background-color: gray;
     color: white;
 }

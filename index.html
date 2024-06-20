@@ -16,26 +16,26 @@
     <!--Pertama-->
    <section class = "Celper">
         <p class= "per">Celcius(&deg;C) :</p>
-        <textarea id="outputC"></textarea>
+        <input type="number" placeholder="Celcius (&deg;C)" id="celcius" value="">
     </section>
     <!--Kedua-->
     <section class= "Fahtwo">
          <p class= "two">Fahrenheit(&deg;F) :</p>
-         <textarea></textarea>
+         <input type="number" placeholder="Fahrenheit (&deg;F)" id="fahrenheit" value="">
          <article>
-        <button class= "but1">Konversi</button>
-        <button class= "but2">Reset</button>
-        <button class= "but3">Reverse</button>
+        <button id="konversi">Konversi</button>
+        <button id="reset">Reset</button>
+        <button id="reverse">Reverse</button>
          </article>
     </section>
     <!--Ketiga-->
    <hr color:black>
     <section>
         <p>Cara Kalkulasi :</p>
-        <textarea>90(&deg;F) * (9/5) + 32 = 194(&deg;F)</textarea>
+        <input input type="text" id="rumus" readonly>
         
     <!--Keempat-->
-    </section>
+    </section> 
     <header><u>
     <h4>Cara Konversi Dari Celcius(&deg;C) ke Fahrenheit(&deg;F)</h4></u>
     </header>
@@ -50,6 +50,6 @@
  
 </main>
 
-<script src="js/script.js"></script>
+<script src="./js/script.js" ></script>
 </body>
 </html>
